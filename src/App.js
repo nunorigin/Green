@@ -11,7 +11,7 @@ function App() {
   console.log("jekkk")
   return (
     <>
-      <Router>
+      <Router> 
         <NavBar />
         <Routes>
           <Route exact path='/' element={<Home />} />
