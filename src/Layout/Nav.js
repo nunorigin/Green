@@ -11,7 +11,7 @@ class NavBar extends React.Component {
                                         justifyContent:"space-between",
                                         }}>
                 <Link style={{color: 'orange'}} to ={""}className="navbar-brand">
-                  <img src={logo} height="70px" />
+                  <img src={logo} height="70px"  />
                 </Link>
 
         <Nav style={{color: 'orange'}} >
