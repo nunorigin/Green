@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "../src/Layout/Nav"
 import Home from "../src/Components/home";
 import Portfolio from "./Components/Portfolio/Portfolio";
@@ -8,7 +8,7 @@ import Contact from "../src/Components/Contact/Contact";
 
 function App() {
 
-  console.log("jekkk-thelpathri  ")
+
   return (
     <>
       <Router> 
